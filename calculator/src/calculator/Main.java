@@ -71,7 +71,9 @@ public class Main {
 			System.out.print("Are you want to make a calc? ");
 			c = sc.next();
 		}while(c.equals("yes"));
-		
+		System.out.println("\n" + "%".repeat(45));
+		System.out.println("****************** Finish! ******************");
+		System.out.println("%".repeat(45));
 		sc.close();
 
 	}
